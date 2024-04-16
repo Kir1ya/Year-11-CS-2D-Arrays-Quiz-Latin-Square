@@ -107,7 +107,7 @@ class LatinSquareTest {
     @org.junit.jupiter.api.Test
     void isLatinRows() {
         assertTrue(LatinSquare.isLatinRows(array2d, LatinSquare.targetCheckSum1(array2d.length),
-                LatinSquare.targetCheckSum2(array2d.length)) == true);
+                LatinSquare.targetCheckSum2(array2d.length)));
         assertTrue(LatinSquare.isLatinRows(array2d2, LatinSquare.targetCheckSum1(array2d2.length),
                 LatinSquare.targetCheckSum2(array2d2.length)) == true);
         assertTrue(LatinSquare.isLatinRows(array2d3, LatinSquare.targetCheckSum1(array2d3.length),
